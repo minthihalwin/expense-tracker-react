@@ -4,7 +4,52 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+
+# Expense Tracker (React)
+
+A simple expense tracking application built with React and Vite.
+
+## Features
+
+- Add and delete transactions
+- Calculate total balance
+- Track income and expenses
+- Persistent data storage using localStorage
+- Responsive design
+
+## Technologies Used
+
+- React 18
+- Vite
+- CSS for styling
+- Context API for state management
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the development server:
+```bash
+npm run dev
+```
+
+## Project Structure
+
+- `src/components/` - React components
+- `src/context/` - Global state management
+- `src/App.jsx` - Main application component
+
+## Contributing
+
+Feel free to submit issues and pull requests.
+
+## License
+
+MIT
+
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Expanding the ESLint configuration
