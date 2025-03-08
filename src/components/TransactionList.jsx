@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 import { Transaction } from "./Transaction";
 
-function TransactionList() {
+export const TransactionList = () => {
   const { transactions } = useContext(GlobalContext);
   return (
     <>
@@ -14,6 +14,4 @@ function TransactionList() {
       </ul>
     </>
   );
-}
-
-export default TransactionList;
+};
